@@ -61,9 +61,10 @@ body, html {
     justify-content: center;
     color: rgb(255, 255, 255);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    border: 2px solid #fff;
     padding: 100px 70px 100px 70px;   
     margin-bottom: px;
+    background: rgba(58, 57, 57, 0.5);
+    
    
 }
 .kat-img{
@@ -71,11 +72,13 @@ body, html {
     width: 200px; 
     height: 200px;  
     transform: translate(0, -50px);
+    border: 2px black;
 }
 
 .about{
     width: 500px;
     color: white;
+    justify-content: center;
 }
 .call{
     font-family: Impact, Charcoal, sans-serif;
@@ -90,4 +93,75 @@ body, html {
 
 .life h5{
     margin: 5px 0; /* top 5px, bottom 5px */
+}
+
+.explore{
+    background-color: rgb(243, 245, 107);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 100%;
+}
+
+.explore:hover{
+    -webkit-box-shadow: 0px -1px 100px 9px rgba(119,138,7,0.99); 
+    box-shadow: 0px -1px 100px 9px rgba(119,138,7,0.99);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+  @media (max-width: 768px) {
+    body, html {
+        background-image: url('assets/mobileBackground.png');
+        background-size: auto;     /* Scale image to cover full screen */
+        background-repeat: no-repeat;
+        background-position: center center; /* Center the image */
+
+    .navbar {
+         height: auto;
+    }
+    .logo-img {
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+    }
+    .navElements {
+      flex-direction: row;
+      align-items: center;
+      margin: 0;
+      gap: 20px;
+      font-size: 50%;
+    }
+    .home {
+      flex-direction: column;
+      gap: 30px;
+      padding: 20px;
+    }
+    .about {
+      width: 90%;
+      text-align: center;
+    }
+    .katImage {
+      padding: 20px;
+    }
+    .kat-img {
+      width: 30%;
+      height: 45%;
+      transform: none;
+    }
+    .call{
+       margin-bottom: 1px;
+        
+    }
+    .description{
+        display: flex;
+        justify-content: center;    
+        flex-direction: column;
+        align-items: center;
+    }
+  }
 }
