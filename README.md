@@ -21,4 +21,4 @@ Built using:
 This project aims to:
 - Practice web development skills
 - Showcase a full custom UI inspired by League of Legends aesthetics
-- Share my passion for the game and Katarina’s unique character
+- Share my passion for Katarina’s unique character
