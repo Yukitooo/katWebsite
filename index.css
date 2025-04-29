@@ -116,8 +116,11 @@ body, html {
 
   @media (max-width: 768px) {
     body, html {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
         background-image: url('assets/mobileBackground.png');
-        background-size: auto;     /* Scale image to cover full screen */
+        background-size: cover;     /* Scale image to cover full screen */
         background-repeat: no-repeat;
         background-position: center center; /* Center the image */
 
@@ -147,11 +150,20 @@ body, html {
     }
     .katImage {
       padding: 20px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+        background: rgba(58, 57, 57, 0.5);
+        border-radius: 10px;
+        
+        margin: 0 auto;
+        width: 90%;
+        height: 90%;
     }
     .kat-img {
-      width: 30%;
-      height: 45%;
+      width: 50%;
+      height: 43%;
       transform: none;
+      margin-bottom: 20px;
     }
     .call{
        margin-bottom: -10px;
@@ -163,6 +175,9 @@ body, html {
         justify-content: center;    
         flex-direction: column;
         align-items: center;
+    }
+    .life{
+        font-size: 80%;
     }
   }
 }
