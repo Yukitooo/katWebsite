@@ -1,0 +1,93 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/background.png');
+    background-size: cover;      /* Scale image to cover full screen */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    background: rgba(58, 57, 57, 0.5);
+}
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 290px;
+
+
+}
+.navElements{
+
+    display:flex;
+    flex: 1;
+    justify-content:center;
+    gap: 100px;
+    align-items: center;
+    color:#faf9f9;
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 300px;
+
+}
+.nav:hover{
+    cursor: pointer;
+    color: #eeec67;
+    text-shadow: 0 0 10px #FFFFFF;
+    transition: 0.1s;
+
+}
+
+.home {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+
+}
+
+.katImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border: 2px solid #fff;
+    padding: 100px 70px 100px 70px;   
+    margin-bottom: px;
+   
+}
+.kat-img{
+
+    width: 200px; 
+    height: 200px;  
+    transform: translate(0, -50px);
+}
+
+.about{
+    width: 500px;
+    color: white;
+}
+.call{
+    font-family: Impact, Charcoal, sans-serif;
+    color:rgb(239, 248, 116)
+}
+
+.life{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.life h5{
+    margin: 5px 0; /* top 5px, bottom 5px */
+}
