@@ -1,0 +1,165 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.loreScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.storyPath{
+    color: rgb(219, 235, 82);
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black 2px solid;
+    gap: vw;
+    padding: 0; 
+    margin:0;
+    box-sizing: border-box;
+}
+
+.part1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/part1Lore.png');
+    background-size: cover;
+    background-position: center 60%;
+    filter: grayscale(100%);
+}
+.part2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/part2Lore.png');
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.part3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/part3Lore.png');
+    background-size: cover;
+    background-position: center 20%;
+    filter: grayscale(100%);
+}
+.part4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/part4Lore.png');
+    background-size: cover;
+    background-position: center 20%;
+    filter: grayscale(100%);
+
+}
+.part5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/part5Lore.png');
+    background-size: cover;
+    background-position: center 45%;
+    filter: grayscale(100%);
+}
+
+
+.part:hover{
+    filter: grayscale(0%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.part.active{
+    filter: grayscale(0%);
+}
+
+.content{
+    display: flex;
+    background-image: url("assets/loreBG.png");
+    max-height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+#lore{
+    width: 500px;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+/* Target scrollbar of the whole page or a specific container */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Scrollbar track (background) */
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;  /* dark background */
+    border-radius: 4px;
+  }
+  
+  /* Scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(37, 8, 3);
+    border-radius: 4px;
+    border: 2px solid #1a1a1a;
+  }
+  
+  /* On hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: darkred;
+  }
+
+ #lore::-webkit-scrollbar:horizontal {
+    display: none;  
+  }
+
+  #partTitle{
+    color:rgb(219, 235, 82);
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }

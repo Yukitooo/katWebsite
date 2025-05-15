@@ -24,7 +24,6 @@ body, html {
 
 }
 .navElements{
-
     display:flex;
     flex: 1;
     justify-content:center;
@@ -75,6 +74,10 @@ body, html {
     border: 2px black;
 }
 
+.nav{
+    text-decoration: none;
+    color: inherit;
+}
 .about{
     width: 500px;
     color: white;
