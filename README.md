@@ -2,14 +2,15 @@
 
 Welcome to my personal project showcasing **Katarina**, one of the most iconic champions in *League of Legends*. This website is a tribute to her lore, skins, top players, gameplay mechanics, and more!
 
+## LINK 
+https://github.com/Yukitooo/katWebsite
+
 ## 🔥 About the Project
 
 This fan site includes:
 
 - 🗡️ **Lore** – Learn about Katarina's backstory and her connection to Noxus  
 - 🎨 **Skins** – View a gallery of Katarina’s skins from classic to legendary  
-- 🌍 **Top Players** – Spotlight on the best Katarina mains from the community  
-- 📸 **Media Gallery** – Fan art, videos, and in-game screenshots  
 
 Built using:
 - HTML, CSS (Flexbox, animations)
